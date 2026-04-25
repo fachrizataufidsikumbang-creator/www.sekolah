@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.main-header {
+    background-color: #004a99;
+    color: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo h1 {
+    font-size: 1.8em;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+.main-nav ul li a:hover {
+    background-color: #004a99;
+    border-radius: 5px;
+}
+.main-content {
+    padding: 20px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero {
+    background: url(image/kampus.jpg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #ffaa00;
+    color: #333;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #cc8000;
+}
+.berita-terbaru h3, .unggulan h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #004a99;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.news-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 280px;
+    transition: transform 0.3s;
+}
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.unggulan ul {
+    list-style-type: none;
+    text-align: center;
+}
+.unggulan li {
+    background-color: #e6f0ff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid #004a99;
+    font-weight: bold;
+}
+.main-footer {
+    background-color: #004a99;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
